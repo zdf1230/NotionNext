@@ -27,6 +27,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css' // You can also use <link> for styles
 import { isMobile } from '@/lib/utils'
 import TwikooCommentCounter from '@/components/TwikooCommentCounter'
+import { Analytics } from '@vercel/analytics/react'
 
 const Ackee = dynamic(() => import('@/components/Ackee'), { ssr: false })
 const Gtag = dynamic(() => import('@/components/Gtag'), { ssr: false })
