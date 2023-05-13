@@ -45,6 +45,7 @@ const MyApp = ({ Component, pageProps }) => {
         {JSON.parse(BLOG.DEBUG) && <DebugPanel />}
         {BLOG.ANALYTICS_ACKEE_TRACKER && <Ackee />}
         {BLOG.ANALYTICS_GOOGLE_ID && <Gtag />}
+        {BLOG.ANALYTICS_VERCEL && <Analytics />}
         {JSON.parse(BLOG.ANALYTICS_BUSUANZI_ENABLE) && <Busuanzi />}
         {BLOG.ADSENSE_GOOGLE_ID && <GoogleAdsense />}
         {BLOG.FACEBOOK_APP_ID && BLOG.FACEBOOK_PAGE_ID && <Messenger />}
